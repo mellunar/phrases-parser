@@ -5,8 +5,4 @@
   import "./app.scss";
 </script>
 
-<nav class="nav">
-  <a href="/">Home</a>
-  <a href="/about">{$t("about.title")}</a>
-</nav>
 <Router {routes} />
