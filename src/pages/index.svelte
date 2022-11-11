@@ -93,7 +93,7 @@
 
     {#if finalJson}
       <div class="parsed" role="button" on:click={copyData}>
-        {finalJson}
+        <div class="final-box">{finalJson}</div>
 
         <div class="message" class:green={copied} class:red={failed}>
           {#if !copied && !failed}

@@ -93,6 +93,16 @@
   pointer-events: none;
 }
 
+.final-box {
+  height: inherit;
+  width: inherit;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  word-break: break-all;
+  text-overflow: ellipsis;
+}
+
 .invalid {
   margin-top: 16px;
 }
